@@ -1,0 +1,20 @@
+{
+    "batch_size": 45,
+    "num_epochs": 201,
+    "start_decay_epoch": 100,
+    "end_decay_epoch": 200,
+    "initial_lr_G_clean_to_noisy": 0.0001,
+    "initial_lr_G_noisy_to_clean": 0.0001,
+    "initial_lr_D_clean": 0.0001,
+    "initial_lr_D_noisy": 0.0001,
+    "initial_lr_Ds_MBD": 0.00002,
+    "alpha_G": 0.9,
+    "alpha": 0.5,
+    "lambda_cycle": 10,
+    "lambda_gp": 0.01,
+    "l_constraint": 0,
+
+    "use_identity_loss":  true,
+    "use_mbd": true,
+    "augment_training_data": true
+}
